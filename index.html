@@ -12,18 +12,19 @@
 
 <body>
     <header>
-        <div id="logoText">
+        <div class="menu">
             <div id="logo"><img src="images/logo/Reservia.svg" /></div>
+
+            <nav>
+                <ul>
+                    <li><a href="#Hebergement1">Hébergement</a></li>
+                    <li><a href="#Activite1">Activité</a></li>
+                </ul>
+                
+            </nav>
         </div>
-
-
-        <nav>
-            <ul>
-                <li><a href="#Hebergement1">Hébergement</a></li>
-                <li><a href="#Activite1">Activité</a></li>
-            </ul>
-            <div><a href="#">S'inscrire</a></div>
-        </nav>
+        
+        <div id="sinscrire"><a href="#">S'inscrire</a></div>
     </header>
 
     <div id="banniereImg">
@@ -39,26 +40,30 @@
         </form>
     </div>
 
-    <div id="filtreBox">
-        <p class="filtreTitle">Filtre</p>
-        <div class="textFilttre">
-            <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-money-bill-wave"></i></span>
-            <p>Economique</p>
+    <div class="filtreBox">
+        <div class="filtreTitle">
+            <p >Filtre</p>
         </div>
+        <div class="filtreBox">
+            <div class="textFilttre">
+                <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-money-bill-wave"></i></span>
+                <p>Economique</p>
+            </div>
 
-        <div class="textFilttre">
-            <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-child"></i></span>
-            <p>Famillial</p>
-        </div>
+            <div class="textFilttre">
+                <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-child"></i></span>
+                <p>Famillial</p>
+            </div>
 
-        <div class="textFilttre">
-            <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-heart"></i></span>
-            <p>Romantique</p>
-        </div>
+            <div class="textFilttre">
+                <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-heart"></i></span>
+                <p>Romantique</p>
+            </div>
 
-        <div class="textFilttre">
-            <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-dog"></i></span>
-            <p>Animaux autorisés</p>
+            <div class="textFilttre">
+                <span class="icoFiltre" style="font-size: 15px; color: #0065FC;"><i class="fas fa-dog"></i></span>
+                <p>Animaux autorisés</p>
+            </div>
         </div>
 
     </div>
@@ -180,8 +185,8 @@
         </section>
 
         <section id="Populaire">
-            <div class="TitleP">
-            <h2>Les plus populaires </h2> <i class="fas fa-star" ></i>
+            <div class="titleP">
+            <h2>Les plus populaires </h2> <span style="font-size: 15px; vertical-align: middle;"><i class="fas fa-star" ></i></span>
             </div>
             
             <a href="#" target="_blank">
