@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 30px;
+    justify-content: center;
 }
 
 header {
@@ -17,9 +18,12 @@ section a {
 /* Menu */
 
 .menu{
-display: flex;
-flex-direction: row;
-}
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+    width: 1200px;
+    }
 
 #sinscrire a{
     text-decoration:none; 
@@ -200,7 +204,7 @@ main {
 .HebergementImg {
     
     width: 250px;
-    height: auto;
+    height: 200px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
@@ -238,6 +242,7 @@ main {
     display:flex;
     flex-direction : row;
     justify-content: space-between;
+    width: 300px;
 }
 #Populaire {
     margin-left: 40px;
@@ -277,6 +282,7 @@ main {
 }
 
 /* Activité */
+
 
 .ActiviteBox {
     display: flex;
@@ -351,7 +357,13 @@ footer {
     .menu{
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
+        width: 0px;
         }
+
+        .menu :nth-child(1) { order: 1; }
+        .menu :nth-child(2) { order: 3; }
+        .menu :nth-child(3) { order: 2; }
 
     body{
         margin:auto;
@@ -378,6 +390,10 @@ footer {
         padding-inline-start: 0px;
     }
 
+    #sinscrire{
+        margin-left: 120px;
+    }
+
     #filtreBox {
         display: block;
         width: auto;
@@ -395,11 +411,13 @@ footer {
 
     .boxherbegement {
         background-color: #ffffff;
+        width: 50%;
     }
     .Hebergement {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 20%;
     }
     .HebergementImg {
         width: 350px;
@@ -419,10 +437,7 @@ footer {
         display: flex;
         flex-direction: column;
         background-color: #F2F2F2;
-        width: auto;
-    }
-    .PopulaireBox{
-        width: 40%;
+        width: 50%;
     }
 
     .ActiviteBox {
@@ -450,7 +465,9 @@ footer {
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
-
+    .PopulaireBox{
+        width: 70%;
+    }
 
     footer{
         line-height: 15px;
