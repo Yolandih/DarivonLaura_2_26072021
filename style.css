@@ -204,7 +204,7 @@ main {
 .HebergementImg {
     
     width: 250px;
-    height: 200px;
+    height: 155px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
@@ -352,7 +352,7 @@ footer {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 810px) {
 
     .menu{
         display: flex;
